@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarySite</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+     <nav class="HEADER">
+       <img src="image/logom.png" class="logo">
+        <h5>MASARP'S SYROPY PATISSERIE SITE</h5>
+        <ul> 
+           <a href="index.html"> <li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+        </nav>
+       <Section class="middle-section">
+       <div class="offerings-section">
+        <h2>WE MAKE</h2>
+        <div class="offerings-grid">
+            <div class="offering-item">
+                <img src="image/Cakes.JPG">
+                <p>Cakes</p>
+                <span class="cake-variants">Vanilla, chocolate, red velvet, banana cake etc</span>
+            </div>
+            <div class="offering-item">
+                <img src="image/Meat pie.JPG">
+                <p>Meat Pie</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/Cookies.JPG">
+                <p>Cookies</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/Cap cakes.JPG">
+                <p>Cap Cake</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/puff-chips.JPG">
+                <p>Puff-Chips</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/Doughnuts.JPG">
+                <p>Doughnuts</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/Popcorn.JPG">
+                <p>Popcorn</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/Snacks.JPG">
+                <p>Snacks</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/ice cream 2.JPG">
+                <p>Ice Cream</p>
+            </div>
+            <div class="offering-item">
+                <img src="image/Jucie.JPG">
+                <p>Juice</p>
+            </div>
+        </div>
+ 
+        
+
+
+<style>
+
+    .middle-section{
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid #ddd; 
+    background-image: url(image/BG\ 4.JPG);
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.offerings-section{
+    flex: 1;
+    padding: 30px;
+}
+.offerings-section h2{
+    text-align: center;
+    color: burlywood;
+    font-size: larger;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.offerings-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.offering-item{
+    text-align: center;
+}
+.offering-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid burlywood;
+    margin: 0 auto 10px auto;
+}
+.offering-item p {
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    font-size: 1.1em;
+}
+.cake-variants {
+    font-size: 0.85rem;
+    font-weight: normal;
+    color: white;
+}
+.HEADER{
+    position: sticky;
+    background-color: #1B2431;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height: 60px;
+}
+h5{
+    margin-top: 19px;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 20px;
+}
+
+
+    @media(max-width:768px) { 
+ body {
+        min-width: fit-content; 
+        overflow-x: auto;  
+    }
+        
+    }
+</style>
+
+
+
+
+
+
+
+</body>
+</html>

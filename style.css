@@ -14,7 +14,6 @@ body{
 .HEADER{
     position: sticky;
     background-color: #1B2431;
-    border-radius: 10px;
     margin-top: 0px;
     margin-bottom: 5px;
     display: flex;
@@ -46,7 +45,7 @@ ul{
 }
 .hero-text-box i{
   font-family: "Tangerine";
-  font-weight: 500;
+  font-weight: bold;
   font-size: xx-large;
   font-weight: bold;
   color: #4A3728;
@@ -113,8 +112,7 @@ ul{
     padding: 10px;
     font-family: "Tangerine";
     font-weight: 900;
-    font-size: x-large;
-    line-height: 1.5;
+    font-size: xx-large;
     color: #2B1E16;
     background-color: white;
     box-shadow:  0 4px 15px rgba(0,0,0,0.1);
@@ -201,7 +199,6 @@ footer{
 .offerings-grid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
 }
 .offering-item{
     text-align: center;
@@ -277,11 +274,40 @@ footer{
     
     
     body {
+        margin: 0;
+        zoom: normal;
+        touch-action: auto;
         min-width: fit-content; 
-        overflow-x: auto;  
+        overflow-x: auto;   
+        overflow-y: auto;
+        font-size: medium;
+    }
+    .hero-text-box i{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .HEADER{
+        font-size: larger;
     }
     .contain{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: xx-large;
+    }
+    .sub-contain{
         width: fit-content;
+    }
+    .contain img{
+        width: 800px;
+    }
+    .sub-contain p{
+        border: none;
+        border-left: solid thick #6b4a3a ;
+        padding-left: 20px;
+        margin: 20px;
+        width: 700px;
+        text-align: start;
+
     }
 
     
@@ -294,11 +320,11 @@ footer{
 
     .hero-text-box {
         margin: 70px !important;
-        max-width: 590px !important;
+        /* max-width: 590px !important; */
         position: absolute; 
     }
     .hero-text-box i {
-        font-size: large;
+        font-size: larger;
     
     }
 
@@ -311,8 +337,9 @@ footer{
 
     .offerings-grid {
         display: grid !important;
-        grid-template-columns: repeat(5, 1fr) !important; 
-        width: 100% !important;
+        grid-template-columns: repeat(2, 1fr) !important; 
+        /* width: 100% !important; */
+        gap: 0px;
     }
 
     
@@ -327,7 +354,7 @@ footer{
     .content {
         display: flex !important;
         flex-direction: row !important;
-        width: 1000px !important;
+        /* width: 1000px !important; */
     }
 
 
@@ -335,8 +362,8 @@ footer{
     
     .image1 {
         position: relative !important;
-        width: 1000px !important; 
-        height: 500px !important;
+        /* width: 1000px !important; 
+        height: 500px !important; */
         
     }
 
@@ -351,7 +378,9 @@ footer{
         padding: 20px;
         border-radius: 10px;
     }
-
+    .cake-variants {
+        font-size: smaller;
+    }
    
     .text-1, .text-2, .text-3, .text-4, .text-5, .text-6 {
         position: absolute !important;
